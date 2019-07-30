@@ -37,4 +37,3 @@ end
 def find_a(array)
   array.start_with? ("a")
 end
-end
