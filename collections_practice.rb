@@ -35,6 +35,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  ["apple", "orange", "pear", "avis", "arlo", "ascot" ].start_with?("a")
-  array
+  array.select{|a| a.start_with?("a")}
 end
