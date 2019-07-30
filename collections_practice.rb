@@ -34,7 +34,7 @@ def kesha_maker(array)
   end
 end
 
-def find_a["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+def find_a(array)
   ["apple", "orange", "pear", "avis", "arlo", "ascot" ].start_with?("a")
   array
 end
